@@ -4,4 +4,4 @@ const router = require('./router')
 
 app.use(router)
 
-app.listen(3000, '0.0.0.0');
+app.listen(process.env.PORT || 3000, '0.0.0.0');
